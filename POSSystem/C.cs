@@ -47,12 +47,12 @@ namespace POSSystem
             double total1 = 0;
             if (qty == 6)
             {
-                total = qty * groupPrice;
+                total = qty * unitPrice - 4.8;
                 Console.WriteLine(total);
             }
-            else
+            else if(qty>6)
             {
-                total1 = qty * unitPrice;
+                total1 = qty * unitPrice - 1;
                 Console.WriteLine(total1);
             }
             var grandtotal = total + total1;
