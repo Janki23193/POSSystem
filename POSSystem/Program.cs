@@ -19,7 +19,7 @@ namespace POSSystem
 
             // Display menu to see for the users
             Console.WriteLine("====Product Code   Price======");
-            Console.WriteLine("[A]  $1.00 each, OR 3 for $3.00");
+            Console.WriteLine("[A]  $1.25 each, OR 3 for $3.00");
             Console.WriteLine("[B]  $4.25");
             Console.WriteLine("[C]  $1.00 OR $5 for a six pack");
             Console.WriteLine("[D]  $0.75");
