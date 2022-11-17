@@ -50,9 +50,9 @@ namespace POSSystem
                 total = qty * unitPrice - 4.8;
                 Console.WriteLine(total);
             }
-            else if(qty>6)
+            else
             {
-                total1 = qty * unitPrice - 1;
+                total1 = qty * unitPrice;
                 Console.WriteLine(total1);
             }
             var grandtotal = total + total1;
